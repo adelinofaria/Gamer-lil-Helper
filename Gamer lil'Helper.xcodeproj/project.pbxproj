@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60077B5151792DC00F9F586 /* Gamer-lil'Helper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C60077B4151792DC00F9F586 /* Gamer-lil'Helper_icon.png */; };
+		C60077BC151798B200F9F586 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60077BB151798B200F9F586 /* PreferencesView.m */; };
+		C67A8ED81503C567009DF7E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A8ED71503C567009DF7E2 /* IOKit.framework */; };
+		C67A8EDE1503C60C009DF7E2 /* MouseSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */; };
+		C6A14FB114FD1DA000CBB160 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A14FB014FD1DA000CBB160 /* Cocoa.framework */; };
+		C6A14FBB14FD1DA000CBB160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FB914FD1DA000CBB160 /* InfoPlist.strings */; };
+		C6A14FBD14FD1DA000CBB160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FBC14FD1DA000CBB160 /* main.m */; };
+		C6A14FC114FD1DA000CBB160 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FBF14FD1DA000CBB160 /* Credits.rtf */; };
+		C6A14FC414FD1DA000CBB160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FC314FD1DA000CBB160 /* AppDelegate.m */; };
+		C6A14FC714FD1DA000CBB160 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FC514FD1DA000CBB160 /* MainMenu.xib */; };
+		C6A14FCF14FD1DA000CBB160 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A14FCE14FD1DA000CBB160 /* SenTestingKit.framework */; };
+		C6A14FD014FD1DA000CBB160 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A14FB014FD1DA000CBB160 /* Cocoa.framework */; };
+		C6A14FD814FD1DA000CBB160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FD614FD1DA000CBB160 /* InfoPlist.strings */; };
+		C6A14FDB14FD1DA000CBB160 /* Gamer_lil_HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FDA14FD1DA000CBB160 /* Gamer_lil_HelperTests.m */; };
+		C6A14FEE14FE5BC300CBB160 /* icon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FEC14FE5BC300CBB160 /* icon_black.png */; };
+		C6A14FEF14FE5BC300CBB160 /* icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FED14FE5BC300CBB160 /* icon_white.png */; };
+		C6A14FF514FE794300CBB160 /* SystemBarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FF414FE794300CBB160 /* SystemBarMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A14FD114FD1DA000CBB160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A14FA314FD1DA000CBB160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A14FAB14FD1DA000CBB160;
+			remoteInfo = "Gamer lil'Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60077B4151792DC00F9F586 /* Gamer-lil'Helper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gamer-lil'Helper_icon.png"; path = "../../Gamer-lil'Helper_icon.png"; sourceTree = "<group>"; };
+		C60077BA151798B200F9F586 /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
+		C60077BB151798B200F9F586 /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
+		C67A8ED71503C567009DF7E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C67A8EDC1503C60C009DF7E2 /* MouseSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseSettings.h; sourceTree = "<group>"; };
+		C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseSettings.m; sourceTree = "<group>"; };
+		C6A14FAC14FD1DA000CBB160 /* Gamer lil'Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamer lil'Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A14FB014FD1DA000CBB160 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C6A14FB314FD1DA000CBB160 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C6A14FB414FD1DA000CBB160 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6A14FB514FD1DA000CBB160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6A14FB814FD1DA000CBB160 /* Gamer lil'Helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamer lil'Helper-Info.plist"; sourceTree = "<group>"; };
+		C6A14FBA14FD1DA000CBB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A14FBC14FD1DA000CBB160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A14FBE14FD1DA000CBB160 /* Gamer lil'Helper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gamer lil'Helper-Prefix.pch"; sourceTree = "<group>"; };
+		C6A14FC014FD1DA000CBB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C6A14FC214FD1DA000CBB160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6A14FC314FD1DA000CBB160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6A14FC614FD1DA000CBB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6A14FCD14FD1DA000CBB160 /* Gamer lil'HelperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamer lil'HelperTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A14FCE14FD1DA000CBB160 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6A14FD514FD1DA000CBB160 /* Gamer lil'HelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gamer lil'HelperTests-Info.plist"; sourceTree = "<group>"; };
+		C6A14FD714FD1DA000CBB160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A14FD914FD1DA000CBB160 /* Gamer_lil_HelperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gamer_lil_HelperTests.h; sourceTree = "<group>"; };
+		C6A14FDA14FD1DA000CBB160 /* Gamer_lil_HelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gamer_lil_HelperTests.m; sourceTree = "<group>"; };
+		C6A14FEC14FE5BC300CBB160 /* icon_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_black.png; sourceTree = "<group>"; };
+		C6A14FED14FE5BC300CBB160 /* icon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_white.png; sourceTree = "<group>"; };
+		C6A14FF314FE794300CBB160 /* SystemBarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemBarMenu.h; sourceTree = "<group>"; };
+		C6A14FF414FE794300CBB160 /* SystemBarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemBarMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A14FA914FD1DA000CBB160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A8ED81503C567009DF7E2 /* IOKit.framework in Frameworks */,
+				C6A14FB114FD1DA000CBB160 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A14FC914FD1DA000CBB160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A14FCF14FD1DA000CBB160 /* SenTestingKit.framework in Frameworks */,
+				C6A14FD014FD1DA000CBB160 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60077B2151790D200F9F586 /* Interface Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FF314FE794300CBB160 /* SystemBarMenu.h */,
+				C6A14FF414FE794300CBB160 /* SystemBarMenu.m */,
+				C60077BA151798B200F9F586 /* PreferencesView.h */,
+				C60077BB151798B200F9F586 /* PreferencesView.m */,
+			);
+			name = "Interface Classes";
+			sourceTree = "<group>";
+		};
+		C60077B3151790DB00F9F586 /* XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FC514FD1DA000CBB160 /* MainMenu.xib */,
+			);
+			name = "XIB Files";
+			sourceTree = "<group>";
+		};
+		C67A8EDA1503C5AB009DF7E2 /* Data Acess Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Acess Layer";
+			sourceTree = "<group>";
+		};
+		C67A8EDB1503C5B6009DF7E2 /* Business Logic Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8EDC1503C60C009DF7E2 /* MouseSettings.h */,
+				C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */,
+			);
+			name = "Business Logic Layer";
+			sourceTree = "<group>";
+		};
+		C6A14FA114FD1DA000CBB160 = {
+			isa = PBXGroup;
+			children = (
+				C6A14FB614FD1DA000CBB160 /* Gamer lil'Helper */,
+				C6A14FD314FD1DA000CBB160 /* Gamer lil'HelperTests */,
+				C6A14FAF14FD1DA000CBB160 /* Frameworks */,
+				C6A14FAD14FD1DA000CBB160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A14FAD14FD1DA000CBB160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FAC14FD1DA000CBB160 /* Gamer lil'Helper.app */,
+				C6A14FCD14FD1DA000CBB160 /* Gamer lil'HelperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A14FAF14FD1DA000CBB160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8ED71503C567009DF7E2 /* IOKit.framework */,
+				C6A14FB014FD1DA000CBB160 /* Cocoa.framework */,
+				C6A14FCE14FD1DA000CBB160 /* SenTestingKit.framework */,
+				C6A14FB214FD1DA000CBB160 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A14FB214FD1DA000CBB160 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FB314FD1DA000CBB160 /* AppKit.framework */,
+				C6A14FB414FD1DA000CBB160 /* CoreData.framework */,
+				C6A14FB514FD1DA000CBB160 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C6A14FB614FD1DA000CBB160 /* Gamer lil'Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FC214FD1DA000CBB160 /* AppDelegate.h */,
+				C6A14FC314FD1DA000CBB160 /* AppDelegate.m */,
+				C67A8EDA1503C5AB009DF7E2 /* Data Acess Layer */,
+				C67A8EDB1503C5B6009DF7E2 /* Business Logic Layer */,
+				C6A14FE614FD3A4D00CBB160 /* Interface Layer */,
+				C6A14FB714FD1DA000CBB160 /* Supporting Files */,
+			);
+			path = "Gamer lil'Helper";
+			sourceTree = "<group>";
+		};
+		C6A14FB714FD1DA000CBB160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FB814FD1DA000CBB160 /* Gamer lil'Helper-Info.plist */,
+				C6A14FB914FD1DA000CBB160 /* InfoPlist.strings */,
+				C6A14FBC14FD1DA000CBB160 /* main.m */,
+				C6A14FBE14FD1DA000CBB160 /* Gamer lil'Helper-Prefix.pch */,
+				C6A14FBF14FD1DA000CBB160 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A14FD314FD1DA000CBB160 /* Gamer lil'HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FD914FD1DA000CBB160 /* Gamer_lil_HelperTests.h */,
+				C6A14FDA14FD1DA000CBB160 /* Gamer_lil_HelperTests.m */,
+				C6A14FD414FD1DA000CBB160 /* Supporting Files */,
+			);
+			path = "Gamer lil'HelperTests";
+			sourceTree = "<group>";
+		};
+		C6A14FD414FD1DA000CBB160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A14FD514FD1DA000CBB160 /* Gamer lil'HelperTests-Info.plist */,
+				C6A14FD614FD1DA000CBB160 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A14FE614FD3A4D00CBB160 /* Interface Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C60077B3151790DB00F9F586 /* XIB Files */,
+				C60077B2151790D200F9F586 /* Interface Classes */,
+				C6A14FE714FD3A5600CBB160 /* Images */,
+			);
+			name = "Interface Layer";
+			sourceTree = "<group>";
+		};
+		C6A14FE714FD3A5600CBB160 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C60077B4151792DC00F9F586 /* Gamer-lil'Helper_icon.png */,
+				C6A14FEC14FE5BC300CBB160 /* icon_black.png */,
+				C6A14FED14FE5BC300CBB160 /* icon_white.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A14FAB14FD1DA000CBB160 /* Gamer lil'Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A14FDE14FD1DA000CBB160 /* Build configuration list for PBXNativeTarget "Gamer lil'Helper" */;
+			buildPhases = (
+				C6A14FA814FD1DA000CBB160 /* Sources */,
+				C6A14FA914FD1DA000CBB160 /* Frameworks */,
+				C6A14FAA14FD1DA000CBB160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gamer lil'Helper";
+			productName = "Gamer lil'Helper";
+			productReference = C6A14FAC14FD1DA000CBB160 /* Gamer lil'Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A14FCC14FD1DA000CBB160 /* Gamer lil'HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A14FE114FD1DA000CBB160 /* Build configuration list for PBXNativeTarget "Gamer lil'HelperTests" */;
+			buildPhases = (
+				C6A14FC814FD1DA000CBB160 /* Sources */,
+				C6A14FC914FD1DA000CBB160 /* Frameworks */,
+				C6A14FCA14FD1DA000CBB160 /* Resources */,
+				C6A14FCB14FD1DA000CBB160 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A14FD214FD1DA000CBB160 /* PBXTargetDependency */,
+			);
+			name = "Gamer lil'HelperTests";
+			productName = "Gamer lil'HelperTests";
+			productReference = C6A14FCD14FD1DA000CBB160 /* Gamer lil'HelperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A14FA314FD1DA000CBB160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rabid Cat";
+			};
+			buildConfigurationList = C6A14FA614FD1DA000CBB160 /* Build configuration list for PBXProject "Gamer lil'Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6A14FA114FD1DA000CBB160;
+			productRefGroup = C6A14FAD14FD1DA000CBB160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A14FAB14FD1DA000CBB160 /* Gamer lil'Helper */,
+				C6A14FCC14FD1DA000CBB160 /* Gamer lil'HelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A14FAA14FD1DA000CBB160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A14FBB14FD1DA000CBB160 /* InfoPlist.strings in Resources */,
+				C6A14FC114FD1DA000CBB160 /* Credits.rtf in Resources */,
+				C6A14FC714FD1DA000CBB160 /* MainMenu.xib in Resources */,
+				C6A14FEE14FE5BC300CBB160 /* icon_black.png in Resources */,
+				C6A14FEF14FE5BC300CBB160 /* icon_white.png in Resources */,
+				C60077B5151792DC00F9F586 /* Gamer-lil'Helper_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A14FCA14FD1DA000CBB160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A14FD814FD1DA000CBB160 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6A14FCB14FD1DA000CBB160 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A14FA814FD1DA000CBB160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A14FBD14FD1DA000CBB160 /* main.m in Sources */,
+				C6A14FC414FD1DA000CBB160 /* AppDelegate.m in Sources */,
+				C6A14FF514FE794300CBB160 /* SystemBarMenu.m in Sources */,
+				C67A8EDE1503C60C009DF7E2 /* MouseSettings.m in Sources */,
+				C60077BC151798B200F9F586 /* PreferencesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A14FC814FD1DA000CBB160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A14FDB14FD1DA000CBB160 /* Gamer_lil_HelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A14FD214FD1DA000CBB160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A14FAB14FD1DA000CBB160 /* Gamer lil'Helper */;
+			targetProxy = C6A14FD114FD1DA000CBB160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6A14FB914FD1DA000CBB160 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A14FBA14FD1DA000CBB160 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6A14FBF14FD1DA000CBB160 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A14FC014FD1DA000CBB160 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C6A14FC514FD1DA000CBB160 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A14FC614FD1DA000CBB160 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C6A14FD614FD1DA000CBB160 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A14FD714FD1DA000CBB160 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A14FDC14FD1DA000CBB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6A14FDD14FD1DA000CBB160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6A14FDF14FD1DA000CBB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer lil'Helper/Gamer lil'Helper-Prefix.pch";
+				INFOPLIST_FILE = "Gamer lil'Helper/Gamer lil'Helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6A14FE014FD1DA000CBB160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer lil'Helper/Gamer lil'Helper-Prefix.pch";
+				INFOPLIST_FILE = "Gamer lil'Helper/Gamer lil'Helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6A14FE214FD1DA000CBB160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamer lil'Helper.app/Contents/MacOS/Gamer lil'Helper";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer lil'Helper/Gamer lil'Helper-Prefix.pch";
+				INFOPLIST_FILE = "Gamer lil'HelperTests/Gamer lil'HelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C6A14FE314FD1DA000CBB160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gamer lil'Helper.app/Contents/MacOS/Gamer lil'Helper";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gamer lil'Helper/Gamer lil'Helper-Prefix.pch";
+				INFOPLIST_FILE = "Gamer lil'HelperTests/Gamer lil'HelperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A14FA614FD1DA000CBB160 /* Build configuration list for PBXProject "Gamer lil'Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A14FDC14FD1DA000CBB160 /* Debug */,
+				C6A14FDD14FD1DA000CBB160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A14FDE14FD1DA000CBB160 /* Build configuration list for PBXNativeTarget "Gamer lil'Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A14FDF14FD1DA000CBB160 /* Debug */,
+				C6A14FE014FD1DA000CBB160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A14FE114FD1DA000CBB160 /* Build configuration list for PBXNativeTarget "Gamer lil'HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A14FE214FD1DA000CBB160 /* Debug */,
+				C6A14FE314FD1DA000CBB160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A14FA314FD1DA000CBB160 /* Project object */;
+}

@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Gamer lil'Helper' target in the 'Gamer lil'Helper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "AppDelegate.h"
+
+    #define LocalizedString(key) NSLocalizedString(key, key)
+
+    #define Log(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#endif
