@@ -15,6 +15,7 @@
 
 static double default_mouse_acceleration = 0.687500;
 static double default_mouse_speed = 1;
+// Set the "Tracking Speed" to 1.0. Possible values are 0.0, 0.125, 0.3125, 0.5, 0.6875, 0.875, 1.0, 1.7.
 
 + (double)getMouseAcceleration {
     NXEventHandle event = NXOpenEventStatus();
@@ -25,7 +26,9 @@ static double default_mouse_speed = 1;
     
     kr = IOHIDGetAccelerationWithKey(event, CFSTR(kIOHIDMouseAccelerationType), &acceleration);
     
-    if (kr != KERN_SUCCESS)
+    NXCloseEventStatus(event);
+    
+    if (kr == KERN_SUCCESS)
         return acceleration;
     else
         return -1;
@@ -35,9 +38,11 @@ static double default_mouse_speed = 1;
     NXEventHandle event = NXOpenEventStatus();
     kern_return_t kr;
     
-    kr = IOHIDSetAccelerationWithKey( event, CFSTR(kIOHIDMouseAccelerationType), value);
+    kr = IOHIDSetAccelerationWithKey(event, CFSTR(kIOHIDMouseAccelerationType), value);
     
-    if (kr != KERN_SUCCESS)
+    NXCloseEventStatus(event);
+    
+    if (kr == KERN_SUCCESS)
         return YES;
     else
         return NO;
@@ -57,9 +62,14 @@ static double default_mouse_speed = 1;
     NXEventHandle event = NXOpenEventStatus();
     kern_return_t kr;
     
+    //@TODO
+    //NXResetMouse(event);
+    
     kr = IOHIDSetAccelerationWithKey( event, CFSTR(kIOHIDMouseAccelerationType), default_mouse_acceleration);
     
-    if (kr != KERN_SUCCESS)
+    NXCloseEventStatus(event);
+    
+    if (kr == KERN_SUCCESS)
         return YES;
     else
         return NO;

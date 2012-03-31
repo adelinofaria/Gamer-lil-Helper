@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C60077B5151792DC00F9F586 /* Gamer-lil'Helper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C60077B4151792DC00F9F586 /* Gamer-lil'Helper_icon.png */; };
-		C60077BC151798B200F9F586 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60077BB151798B200F9F586 /* PreferencesView.m */; };
+		C66C1D1B151BE034001A12C4 /* KeyboardSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C1D1A151BE034001A12C4 /* KeyboardSettings.m */; };
+		C66C1D23151BEA07001A12C4 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C1D22151BEA07001A12C4 /* PreferencesController.m */; };
 		C67A8ED81503C567009DF7E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A8ED71503C567009DF7E2 /* IOKit.framework */; };
 		C67A8EDE1503C60C009DF7E2 /* MouseSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */; };
 		C6A14FB114FD1DA000CBB160 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A14FB014FD1DA000CBB160 /* Cocoa.framework */; };
@@ -24,6 +25,9 @@
 		C6A14FEE14FE5BC300CBB160 /* icon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FEC14FE5BC300CBB160 /* icon_black.png */; };
 		C6A14FEF14FE5BC300CBB160 /* icon_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FED14FE5BC300CBB160 /* icon_white.png */; };
 		C6A14FF514FE794300CBB160 /* SystemBarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FF414FE794300CBB160 /* SystemBarMenu.m */; };
+		C6E0E255151A22AD00712FAC /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E0E254151A22AD00712FAC /* PreferencesWindow.xib */; };
+		C6E0E259151A22E800712FAC /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0E258151A22E800712FAC /* PreferencesWindowController.m */; };
+		C6E0E260151B7D2500712FAC /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0E25F151B7D2500712FAC /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,10 @@
 
 /* Begin PBXFileReference section */
 		C60077B4151792DC00F9F586 /* Gamer-lil'Helper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gamer-lil'Helper_icon.png"; path = "../../Gamer-lil'Helper_icon.png"; sourceTree = "<group>"; };
-		C60077BA151798B200F9F586 /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
-		C60077BB151798B200F9F586 /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
+		C66C1D19151BE034001A12C4 /* KeyboardSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardSettings.h; sourceTree = "<group>"; };
+		C66C1D1A151BE034001A12C4 /* KeyboardSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardSettings.m; sourceTree = "<group>"; };
+		C66C1D21151BEA07001A12C4 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		C66C1D22151BEA07001A12C4 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
 		C67A8ED71503C567009DF7E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		C67A8EDC1503C60C009DF7E2 /* MouseSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseSettings.h; sourceTree = "<group>"; };
 		C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseSettings.m; sourceTree = "<group>"; };
@@ -66,6 +72,11 @@
 		C6A14FED14FE5BC300CBB160 /* icon_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_white.png; sourceTree = "<group>"; };
 		C6A14FF314FE794300CBB160 /* SystemBarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemBarMenu.h; sourceTree = "<group>"; };
 		C6A14FF414FE794300CBB160 /* SystemBarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemBarMenu.m; sourceTree = "<group>"; };
+		C6E0E254151A22AD00712FAC /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		C6E0E257151A22E800712FAC /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		C6E0E258151A22E800712FAC /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		C6E0E25E151B7D2500712FAC /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		C6E0E25F151B7D2500712FAC /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +106,8 @@
 			children = (
 				C6A14FF314FE794300CBB160 /* SystemBarMenu.h */,
 				C6A14FF414FE794300CBB160 /* SystemBarMenu.m */,
-				C60077BA151798B200F9F586 /* PreferencesView.h */,
-				C60077BB151798B200F9F586 /* PreferencesView.m */,
+				C6E0E257151A22E800712FAC /* PreferencesWindowController.h */,
+				C6E0E258151A22E800712FAC /* PreferencesWindowController.m */,
 			);
 			name = "Interface Classes";
 			sourceTree = "<group>";
@@ -105,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A14FC514FD1DA000CBB160 /* MainMenu.xib */,
+				C6E0E254151A22AD00712FAC /* PreferencesWindow.xib */,
 			);
 			name = "XIB Files";
 			sourceTree = "<group>";
@@ -119,10 +131,26 @@
 		C67A8EDB1503C5B6009DF7E2 /* Business Logic Layer */ = {
 			isa = PBXGroup;
 			children = (
+				C66C1D21151BEA07001A12C4 /* PreferencesController.h */,
+				C66C1D22151BEA07001A12C4 /* PreferencesController.m */,
+				C66C1D19151BE034001A12C4 /* KeyboardSettings.h */,
+				C66C1D1A151BE034001A12C4 /* KeyboardSettings.m */,
 				C67A8EDC1503C60C009DF7E2 /* MouseSettings.h */,
 				C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */,
+				C6E0E25E151B7D2500712FAC /* Profile.h */,
+				C6E0E25F151B7D2500712FAC /* Profile.m */,
 			);
 			name = "Business Logic Layer";
+			sourceTree = "<group>";
+		};
+		C68BBFEF1524906500ADCB55 /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C67A8ED71503C567009DF7E2 /* IOKit.framework */,
+				C6A14FB014FD1DA000CBB160 /* Cocoa.framework */,
+				C6A14FCE14FD1DA000CBB160 /* SenTestingKit.framework */,
+			);
+			name = "Linked Frameworks";
 			sourceTree = "<group>";
 		};
 		C6A14FA114FD1DA000CBB160 = {
@@ -147,9 +175,7 @@
 		C6A14FAF14FD1DA000CBB160 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C67A8ED71503C567009DF7E2 /* IOKit.framework */,
-				C6A14FB014FD1DA000CBB160 /* Cocoa.framework */,
-				C6A14FCE14FD1DA000CBB160 /* SenTestingKit.framework */,
+				C68BBFEF1524906500ADCB55 /* Linked Frameworks */,
 				C6A14FB214FD1DA000CBB160 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -306,6 +332,7 @@
 				C6A14FEE14FE5BC300CBB160 /* icon_black.png in Resources */,
 				C6A14FEF14FE5BC300CBB160 /* icon_white.png in Resources */,
 				C60077B5151792DC00F9F586 /* Gamer-lil'Helper_icon.png in Resources */,
+				C6E0E255151A22AD00712FAC /* PreferencesWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +371,10 @@
 				C6A14FC414FD1DA000CBB160 /* AppDelegate.m in Sources */,
 				C6A14FF514FE794300CBB160 /* SystemBarMenu.m in Sources */,
 				C67A8EDE1503C60C009DF7E2 /* MouseSettings.m in Sources */,
-				C60077BC151798B200F9F586 /* PreferencesView.m in Sources */,
+				C6E0E259151A22E800712FAC /* PreferencesWindowController.m in Sources */,
+				C6E0E260151B7D2500712FAC /* Profile.m in Sources */,
+				C66C1D1B151BE034001A12C4 /* KeyboardSettings.m in Sources */,
+				C66C1D23151BEA07001A12C4 /* PreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

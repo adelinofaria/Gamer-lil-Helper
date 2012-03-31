@@ -7,10 +7,12 @@
 //
 
 #import "SystemBarMenu.h"
+#import "PreferencesWindowController.h"
 
 @implementation SystemBarMenu
 
 @synthesize statusItem = _statusItem;
+@synthesize preferencesWindowController = _preferencesWindowController;
 
 - (void)awakeFromNib {
     _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
@@ -20,10 +22,10 @@
     self.delegate = self;
 }
 
-#pragma mark Menu Actions
-#pragma mark -
+#pragma mark - Menu Events
 
 - (void)menuNeedsUpdate:(NSMenu *)menu {
+    
 }
 
 - (void)menuWillOpen:(NSMenu *)menu {
@@ -33,6 +35,8 @@
 - (void)menuDidClose:(NSMenu *)menu {
     _statusItem.image = [NSImage imageNamed:@"icon_black"];
 }
+
+#pragma mark - Menu Actions
 
 - (IBAction)openAbout:(id)sender {
     [[NSApplication sharedApplication] orderFrontStandardAboutPanel:nil];
@@ -44,20 +48,13 @@
 }
 
 - (IBAction)openPreferences:(id)sender {
-    /*if (!pwc) {
-        pwc = [[PreferencesWindowController alloc] init];
-        
-        NSArray *modules = [NSArray arrayWithObjects:[[[GeneralPreferencesViewController alloc] init] autorelease], [[[AdvancedPreferencesViewController alloc] init] autorelease], nil];
-        
-        [pwc setModules:modules];
-    }
+    self.preferencesWindowController = [[PreferencesWindowController alloc] initWithWindowNibName:@"PreferencesWindow"];
+    self.preferencesWindowController.window.delegate = self.preferencesWindowController;
+    [self.preferencesWindowController showWindow:self];
+}
+
+- (IBAction)profileQuickSelection:(id)sender {
     
-    pwc.window.delegate = prefs;
-    
-    [pwc.window center];
-    [pwc.window makeKeyAndOrderFront:self];
-    [pwc.window setOrderedIndex:0];
-    [NSApp activateIgnoringOtherApps:YES];*/
 }
 
 - (IBAction)quit:(id)sender {

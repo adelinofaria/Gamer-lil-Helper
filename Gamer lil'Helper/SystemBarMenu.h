@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class PreferencesWindowController;
+
 @interface SystemBarMenu : NSMenu <NSMenuDelegate>
 
 @property (nonatomic, retain) NSStatusItem *statusItem;
+@property (nonatomic, retain) PreferencesWindowController *preferencesWindowController;
 
 @end
