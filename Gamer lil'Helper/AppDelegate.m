@@ -43,7 +43,11 @@
             NSLog(@"Negative");
     }
     
-    NSLog(@"%i",[KeyboardSettings getFnKeyMode]);*/
+    NSLog(@"%i",[KeyboardSettings getFnKeyMode]);
+    
+    NSLog(@"%f", [KeyboardSettings getKeyRepeatInterval]);*/
+    
+    [NSUserDefaults resetStandardUserDefaults];
 }
 
 @end

@@ -12,6 +12,7 @@
 		C66C1D23151BEA07001A12C4 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C1D22151BEA07001A12C4 /* PreferencesController.m */; };
 		C67A8ED81503C567009DF7E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A8ED71503C567009DF7E2 /* IOKit.framework */; };
 		C67A8EDE1503C60C009DF7E2 /* MouseSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */; };
+		C6916622152B691D00B48D48 /* To Do.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6916621152B691D00B48D48 /* To Do.rtf */; };
 		C6A14FB114FD1DA000CBB160 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A14FB014FD1DA000CBB160 /* Cocoa.framework */; };
 		C6A14FBB14FD1DA000CBB160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A14FB914FD1DA000CBB160 /* InfoPlist.strings */; };
 		C6A14FBD14FD1DA000CBB160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A14FBC14FD1DA000CBB160 /* main.m */; };
@@ -49,6 +50,7 @@
 		C67A8ED71503C567009DF7E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		C67A8EDC1503C60C009DF7E2 /* MouseSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseSettings.h; sourceTree = "<group>"; };
 		C67A8EDD1503C60C009DF7E2 /* MouseSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseSettings.m; sourceTree = "<group>"; };
+		C6916621152B691D00B48D48 /* To Do.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "To Do.rtf"; sourceTree = "<group>"; };
 		C6A14FAC14FD1DA000CBB160 /* Gamer lil'Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamer lil'Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A14FB014FD1DA000CBB160 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C6A14FB314FD1DA000CBB160 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -212,6 +214,7 @@
 				C6A14FBC14FD1DA000CBB160 /* main.m */,
 				C6A14FBE14FD1DA000CBB160 /* Gamer lil'Helper-Prefix.pch */,
 				C6A14FBF14FD1DA000CBB160 /* Credits.rtf */,
+				C6916621152B691D00B48D48 /* To Do.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				C6A14FEF14FE5BC300CBB160 /* icon_white.png in Resources */,
 				C60077B5151792DC00F9F586 /* Gamer-lil'Helper_icon.png in Resources */,
 				C6E0E255151A22AD00712FAC /* PreferencesWindow.xib in Resources */,
+				C6916622152B691D00B48D48 /* To Do.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

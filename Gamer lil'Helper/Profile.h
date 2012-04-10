@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define kName @"Name"
+#define kProcessName @"ProcessName"
+#define kProcessPID @"ProcessPID"
+#define kMouseAcceleration @"MouseAcceleration"
+#define kMouseSpeed @"MouseSpeed"
+#define kKeyboardKeyRepeat @"KeyboardKeyRepeat"
+#define kKeyboardKeyDelay @"KeyboardKeyDelay"
+#define kKeyboardFKeys @"KeyboardFKeys"
+
 @interface Profile : NSObject
 
 @property (nonatomic, retain) NSString *name;
@@ -20,5 +29,10 @@
 @property (nonatomic) BOOL keyboardFKeys;
 
 - (id)initWithName:(NSString *)name;
+
+- (void)resetProfile;
+
++ (NSMutableDictionary *)objectToDictionary:(Profile *)profile;
++ (Profile *)dictionaryToObject:(NSDictionary *)dictionary;
 
 @end

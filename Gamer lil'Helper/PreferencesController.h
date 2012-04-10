@@ -8,11 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+#define kFirstRun @"FirstRun"
+#define kApplicationRunAtStart @"ApplicationRunAtStart"
+#define kApplicationChecksForUpdates @"ApplicationChecksForUpdates"
+#define kShowDesktopNotification @"ShowDesktopNotification"
+#define kProfileCount @"ProfileCount"
+#define kProfileSelected @"ProfileSelected"
+#define kDefaultProfile @"DefaultProfile"
+
 @class Profile;
 
 @interface PreferencesController : NSObject
 
 @property (nonatomic, retain) NSMutableArray *profiles;
+@property (nonatomic, retain) Profile *selectedProfile;
+@property (nonatomic, retain) Profile *defaultProfile;
 @property (nonatomic) BOOL shouldRunAtStart;
 @property (nonatomic) BOOL shouldCheckUpdates;
 @property (nonatomic) BOOL shouldShowNotifications;
@@ -21,7 +31,6 @@
 
 + (PreferencesController *)sharedInstance;
 
-- (NSString *)getPreferencesPath;
 - (void)setPreferencesDefaults;
 - (void)setupPreferences;
 - (void)savePreferences;
@@ -29,6 +38,7 @@
 - (BOOL)existsInStartupItems;
 - (void)loadAtStartup:(BOOL)value;
 
+- (Profile *)selectedProfile;
 - (void)addProfile:(Profile *)profile;
 - (void)removeProfile:(Profile *)profile;
 - (void)resetProfile;

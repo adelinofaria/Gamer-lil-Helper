@@ -10,7 +10,7 @@
 
 @class Profile;
 
-@interface PreferencesWindowController : NSWindowController <NSWindowDelegate>
+@interface PreferencesWindowController : NSWindowController <NSWindowDelegate, NSTextFieldDelegate>
 
 @property (nonatomic, retain)Profile *selectedProfile;
 
@@ -23,7 +23,7 @@
 @property (nonatomic, retain)IBOutlet NSButton *applicationUpdateCheckbox;
 @property (nonatomic, retain)IBOutlet NSButton *desktopNotificationsCheckbox;
 
-@property (nonatomic, retain)IBOutlet NSButton *profilesPopup;
+@property (nonatomic, retain)IBOutlet NSPopUpButton *profilesPopup;
 @property (nonatomic, retain)IBOutlet NSButton *addProfileButton;
 @property (nonatomic, retain)IBOutlet NSButton *removeProfileButton;
 @property (nonatomic, retain)IBOutlet NSSlider *mouseAccelerationSlider;
@@ -31,5 +31,10 @@
 @property (nonatomic, retain)IBOutlet NSSlider *keyboardKeyRepeatSlider;
 @property (nonatomic, retain)IBOutlet NSSlider *keyboardKeyDelaySlider;
 @property (nonatomic, retain)IBOutlet NSButton *keyboardFKeysCheckbox;
+
+@property (nonatomic, retain)IBOutlet NSWindow *profileNameWindow;
+@property (nonatomic, retain)IBOutlet NSTextField *profileNameTextField;
+@property (nonatomic, retain)IBOutlet NSButton *profileNameOkButton;
+@property (nonatomic, retain)IBOutlet NSButton *profileNameCancelButton;
 
 @end
